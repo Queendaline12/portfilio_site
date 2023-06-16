@@ -295,7 +295,7 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .contact__list i {
   font-size: 1rem;
@@ -303,6 +303,7 @@
 .contact .social-icons {
   position: initial;
   margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -323,13 +324,16 @@
     padding-right: 1.5rem;
   }
   .nav .menu-nav__link {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .about__bio {
-    font-size: 1.5rem;
+    font-size: 1rem;
+  }
+  .about__bio__bio-image {
+    height: 60vh;
   }
   .projects__bio-image {
-    height: 40vh;
+    height: 60vh;
   }
   .projects__items {
     grid-template-columns: repeat(2, 1fr);
@@ -342,16 +346,20 @@
   }
 }
 @media screen and (min-width: 1024px) {
+  .projects__bio-image {
+    height: 60vh;
+  }
   .projects__items {
     grid-template-columns: repeat(3, 1fr);
   }
   .contact__list {
     grid-template-columns: repeat(3, 1fr);
+    font-size: 1.5rem;
   }
 }
 @media screen and (min-width: 1600px) {
   .projects__bio-image {
-    height: 50vh;
+    height: 80vh;
   }
 }
 body {
@@ -384,6 +392,11 @@ header {
   padding: 1rem;
 }
 
+img {
+  width: 100%;
+  height: 100%;
+}
+
 main {
   height: 100%;
   width: 100%;
@@ -404,7 +417,7 @@ main .social-icons a:hover {
 footer {
   font-size: 1rem;
   position: fixed;
-  bottom: 0.4rem;
+  bottom: 0.2rem;
   right: 1rem;
   text-align: right;
   padding: 1rem;
