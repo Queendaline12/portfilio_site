@@ -1,1 +1,1 @@
-https://github.com/Queendaline12/portfilio_site.git
+https://queendaline12.github.io/portfilio_site/
